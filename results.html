@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="results.css"/>
+    <link rel="icon" type="image/svg+xml" href="/pdlogo.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+    <title>Parkinder</title>
+  </head>
+  <body>
+      <div class="brand">
+        <img class="logo" src="/logo.svg" alt="logo" >
+        <h1>Parkinder</h1>
+      </div>
+      <div class="greeting">
+        <h1>
+          Results
+        </h1>
+      </div>
+    <header class="header" id="header">
+      <nav class="nav container">
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item">
+                      <a href="#home" class="nav__link active-link">
+                          <i class='bx bx-home-alt nav__icon'></i>
+                          <!-- <span class="nav__name">Home</span> -->
+                      </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                      <a href="#community" class="nav__link">
+                          <i class='bx bx-group nav__icon'></i>
+                          <!-- <span class="nav__name">Community</span> -->
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#account" class="nav__link">
+                          <i class='bx bx-cog nav__icon'></i>
+                          <!-- <span class="nav__name">Account</span> -->
+                      </a>
+                  </li>
+              </ul>
+          </div>
+
+          <img src="assets/img/perfil.png" alt="" class="nav__img">
+      </nav>
+  </header>
+
+    <main>
+      <div class="card">
+        <div class="card-inner">
+            <h2>The Results Based on Your Voice Suggest:</h2>
+            <h2 id="score" class="score">{{ score }}</h2>
+            <p class="mesg">You have {{ score }} Chances of Getting Parkinson's Disease</p>
+        </div>
+      </div>
+      </button>
+    </a>
+    </main>
+
+
+
+    <script src="script.js"></script>
+
+      </h2>
+      
+  </body>
+</html>
